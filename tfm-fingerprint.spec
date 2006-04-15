@@ -1,4 +1,5 @@
 Summary:	TouchChip TFM/ESS FingerPrint BSP
+Summary(pl):	Modu³ BSP do dla czytnika odcisków palców TouchChip TFM/ESS
 Name:		tfm-fingerprint
 Version:	1.0
 Release:	0.1
@@ -14,6 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 TouchChip TFM/ESS FingerPrint BSP.
+
+%description -l pl
+Modu³ BSP do dla czytnika odcisków palców TouchChip TFM/ESS.
 
 %prep
 %setup -q -c
@@ -39,4 +43,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.pdf REDISTRIBUTABLES.TXT relnotes.txt
 %attr(755,root,root) %{_libdir}/lib*.so*
-%attr(644,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*.cfg
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*.cfg
