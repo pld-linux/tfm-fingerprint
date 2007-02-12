@@ -1,5 +1,5 @@
 Summary:	TouchChip TFM/ESS FingerPrint BSP
-Summary(pl):	Modu≥ BSP do dla czytnika odciskÛw palcÛw TouchChip TFM/ESS
+Summary(pl.UTF-8):   Modu≈Ç BSP do dla czytnika odcisk√≥w palc√≥w TouchChip TFM/ESS
 Name:		tfm-fingerprint
 Version:	1.0
 Release:	0.1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 TouchChip TFM/ESS FingerPrint BSP.
 
-%description -l pl
-Modu≥ BSP do dla czytnika odciskÛw palcÛw TouchChip TFM/ESS.
+%description -l pl.UTF-8
+Modu≈Ç BSP do dla czytnika odcisk√≥w palc√≥w TouchChip TFM/ESS.
 
 %prep
 %setup -q -c
