@@ -1,5 +1,5 @@
 Summary:	TouchChip TFM/ESS FingerPrint BSP
-Summary(pl.UTF-8):   Moduł BSP do dla czytnika odcisków palców TouchChip TFM/ESS
+Summary(pl.UTF-8):	Moduł BSP do dla czytnika odcisków palców TouchChip TFM/ESS
 Name:		tfm-fingerprint
 Version:	1.0
 Release:	0.1
