@@ -8,6 +8,7 @@ Group:		Applications/Networking
 Source0:	http://www.upek.com/support/download/TFMESS_BSP_LIN_%{version}.zip
 # NoSource0-md5:	5da4e96ddb8ee446ef3fd7eff05fadc6
 URL:		http://www.upek.com/support/dl_linux_bsp.asp
+BuildRequires:	unzip
 Requires(post,postun):	bioapi
 Requires:	bioapi
 ExclusiveArch:	%{ix86}
